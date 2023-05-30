@@ -60,11 +60,11 @@ window.addEventListener('load', () => {
         }
     }
 
-    const prevTransition = () => {
-      if (conSlideIndex > 1) {
-        prevBtn.classList.add('transition');
-      }
-    }
+    // const prevTransition = () => {
+    //   if (conSlideIndex > 1) {
+    //     prevBtn.classList.add('transition');
+    //   }
+    // }
 
     function activeLink() {
         for(l of link) {
